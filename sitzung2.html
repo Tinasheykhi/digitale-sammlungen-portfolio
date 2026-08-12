@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="de">
+
+<head>
+  <title>Prometheus</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css">
+  </noscript>
+</head>
+
+<body class="is-preload">
+  <!-- Wrapper -->
+  <div id="wrapper">
+    <!-- Header -->
+    <header id="header">
+      <div class="inner">
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+          <span class="symbol"><img src="images/logo.svg" alt=""></span><span class="title">Digitale Sammlungen</span>
+        </a>
+
+        <!-- Nav -->
+        <nav>
+          <ul>
+            <li><a href="#menu">Menu</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Menu -->
+    <nav id="menu">
+      <h2>Menu</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="generic.html">Ipsum veroeros</a></li>
+        <li><a href="generic.html">Tempus etiam</a></li>
+        <li><a href="generic.html">Consequat dolor</a></li>
+        <li><a href="elements.html">Elements</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+      <div class="inner">
+        <h1>Sitzung 2: Prometheus</h1>
+        <div class="info-box">
+          <p>
+            <b>Einleitung</b>: In dieser Sitzung wird Prometheus vorgestellt. Wir
+            lernen, wie Bilder aus verschiedenen Museen, Universitäten und
+            Forschungsprojekten in einem gemeinsamen System zusammengeführt
+            werden. Außerdem wird erklärt, welche Rolle Metadaten und Normdaten
+            spielen, welche Probleme digitale Sammlungen haben und welche
+            Funktionen Prometheus dafür bietet.
+          </p>
+        </div>
+        <h2> Prometheus</h2>
+
+        <p>
+          Prometheus ist ein verteiltes digitales Bildarchiv. Es verbindet
+          Bildsammlungen aus Museen, Universitäten, Forschungsprojekten und
+          anderen Institutionen. Die Bilder bleiben in ihren eigenen
+          Datenbanken, können aber über eine gemeinsame Suchoberfläche
+          gefunden werden. Ein Problem ist, dass jede Institution ihre Daten
+          anders speichert. Deshalb vereinheitlicht Prometheus die
+          Informationen, damit alle Objekte in einem gemeinsamen System
+          durchsucht werden können. Dafür werden Formate wie XML, CSV und APIs
+          verwendet. Kleine Institutionen besitzen oft keinen eigenen Server
+          oder keine API. In diesem Fall speichert Prometheus die Bilder und
+          Metadaten auf den eigenen Servern. Außerdem durchsucht Prometheus
+          nicht nur das eingegebene Wort. Verschiedene Schreibweisen wie
+          Raffael, Raphael oder Raffaello werden automatisch erkannt. Auch ein
+          englisches Wörterbuch ist integriert. Deshalb kann eine Suche nach
+          „See“ auch weitere passende Ergebnisse liefern.
+        </p>
+        <p>
+          <strong>Weiterführender Link:</strong>
+          <a href="https://prometheus-bildarchiv.de/" target="_blank">
+            prometheus – Das verteilte digitale Bildarchiv
+          </a>
+        </p>
+
+        <hr>
+
+        <h2> Wie arbeitet Prometheus?</h2>
+
+        <p>
+          Prometheus erhält Bilder und Metadaten über API, XML oder CSV.
+          Danach werden die Daten geprüft, verarbeitet und vereinheitlicht.
+          Anschließend werden alle Informationen in einen Index geschrieben.
+          Dadurch können Nutzerinnen und Nutzer schnell nach Begriffen,
+          Schlagwörtern, Datierungen oder Objekttypen suchen.
+        </p>
+
+        <hr>
+
+        <h2> Qualität digitaler Bilder</h2>
+
+        <p>
+          Digitale Bilder sehen nicht immer genauso aus wie das Original. Im
+          Unterricht wurden verschiedene Digitalisate eines Kunstwerks
+          verglichen. Farben, Bildausschnitt, Rahmen oder Bildqualität können
+          unterschiedlich sein. Deshalb sollte man nicht denken, dass jedes
+          Digitalisat das Original genau zeigt. Für professionelle
+          Digitalisierungen wird oft eine Farbkarte verwendet. So können
+          Farbveränderungen später überprüft werden.
+        </p>
+
+        <hr>
+
+        <h2> Metadaten und Normdaten</h2>
+
+        <h3>Metadaten</h3>
+
+        <p>
+          Metadaten sind Informationen über ein digitales Objekt. Dazu gehören
+          zum Beispiel der Künstler, der Titel, der Standort oder die
+          Datierung. Sie helfen dabei, ein Objekt besser zu beschreiben und
+          schneller zu finden. Nicht alle Metadaten sollen unverändert
+          angezeigt werden. Manche historischen Werke enthalten heute
+          diskriminierende Begriffe. Prometheus blendet diese Wörter zuerst
+          aus und zeigt einen Hinweis an. Wenn sie für die Forschung notwendig
+          sind, können sie trotzdem angezeigt werden.
+        </p>
+
+        <h3>Bedeutung der Metadaten</h3>
+
+        <p>
+          Metadaten sind nicht nur für die Suche wichtig. Sie ermöglichen auch
+          weitere Funktionen. Wenn wir ein Kunstwerk nur digital sehen, wissen
+          wir oft nicht, wie groß es wirklich ist. Zum Beispiel können die
+          Mona Lisa oder Das Abendmahl größer oder kleiner wirken als in
+          Wirklichkeit. Deshalb zeigt Prometheus neben dem Bild eine Person
+          mit einer Größe von 1,75 m, wenn die Maße des Kunstwerks in den
+          Metadaten gespeichert sind. So können Nutzerinnen und Nutzer die
+          echte Größe besser einschätzen.
+        </p>
+
+        <h3>Normdaten</h3>
+
+        <p>
+          Normdaten sind standardisierte Informationen von einer offiziellen
+          Stelle. Jede Person, jeder Ort oder jedes Objekt bekommt eine
+          eindeutige ID. Zum Beispiel kann der Name Susanne Kurz mehreren
+          Personen gehören. Auch Köln, Cologne und Colonia meinen denselben
+          Ort. Durch die eindeutige ID erkennt das System immer, welche Person
+          oder welcher Ort gemeint ist.
+        </p>
+
+        <hr>
+
+        <h2>Kommentare</h2>
+
+        <p>
+          Die Nutzerinnen und Nutzer suchen nicht nur nach Bildern. Sie können
+          auch Kommentare schreiben und Fehler in den Metadaten melden.
+          Dadurch können falsche Informationen später verbessert werden.
+        </p>
+
+        <hr>
+
+        <h2>Bildähnlichkeit</h2>
+
+        <p>
+          Prometheus kann auch ähnliche Bilder erkennen. Dafür nutzt das
+          System Computer Vision. Die Bilder werden mit Vektoren verglichen.
+          Je kleiner der Abstand zwischen den Vektoren ist, desto ähnlicher
+          sind die Bilder.
+        </p>
+
+        <hr>
+
+        <h2> Kontext</h2>
+
+        <p><strong>„Das Digitalisat ist nur die halbe Wahrheit.“</strong></p>
+
+        <p>
+          Eines der größten Probleme digitaler Sammlungen ist der Verlust des
+          Kontexts. Wenn wir nur das Bild eines Kunstwerks sehen, fehlen
+          wichtige Informationen. Zum Beispiel wissen wir oft nicht, wo das
+          Objekt ursprünglich war oder wie groß es wirklich ist.
+        </p>
+
+        <hr>
+
+        <h2>Fazit</h2>
+
+        <p>
+          Ich habe gelernt, dass Prometheus viel mehr als eine normale
+          Bilddatenbank ist. Das System verbindet viele Sammlungen,
+          verarbeitet Metadaten und Normdaten und macht Bilder leichter
+          auffindbar. Gleichzeitig habe ich verstanden, dass ein Digitalisat
+          nicht immer alle Informationen eines Kunstwerks zeigt und dass
+          Metadaten und Kontext für digitale Sammlungen sehr wichtig sind.
+        </p>
+
+        <hr>
+        <h2>Material aus der Sitzung</h2>
+
+        <div class="gallery">
+          <img src="images/sitzung2-1.png" alt="" width="400">
+          <img src="images/sitzung2-2.png" alt="" width="400">
+          <img src="images/sitzung2-3.png" alt="" width="400">
+          <img src="images/sitzung2-4.png" alt="" width="400">
+          <img src="images/sitzung2-5.png" alt="" width="400">
+          <img src="images/sitzung2-6.png" alt="" width="400">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
